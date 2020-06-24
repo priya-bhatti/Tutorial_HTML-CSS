@@ -1,0 +1,139 @@
+body {
+    /* background-color: black; */
+    margin: 0;
+}
+
+.link-title {
+    text-decoration: none;
+    font-size: 40px;
+    color: #444444;
+}
+
+.container {
+    width: 780px;
+    margin: 20px auto;
+    background-color: #FFF;
+    box-shadow: -7px 9px 20px 0px #dbd7e8;
+    border-radius: 10px;
+}
+
+.header {
+    padding: 45px 0 20px 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.menu {
+    background-color: lightblue;
+    padding: 6px 0 6px 40px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+}
+
+.menu a:hover {
+    color: grey
+}
+
+#home-image img {
+    width: 100%;
+}
+
+aside {
+    float: left;
+    width: 120px;
+    padding: 30px 0 0 40px;
+}
+
+h1 {
+    margin: 0px;
+    color: #869843;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+h2 {
+    color: lightblue;
+    font-size: 15px;
+    margin: 20px 0 5px 0;
+}
+
+.main {
+    margin: 0 0 0 180px;
+    padding: 35px 40px 30px 0;
+    color: #444;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+    line-height: 18px;
+    text-emphasis: justify;
+}
+
+.main a:hover {
+    color: #444444;
+}
+
+footer {
+    padding: 6px 40px 6px 40px;
+    background-color: #d6d6d6;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #444444;
+    font-size: 11px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#about-page #home-image img {
+    width: 70%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#about-page #profile-info {
+    float: right;
+    width: 20%;
+    margin: 5px;
+}
+
+#about-page .description {
+    clear: both;
+}
+
+
+/* Contact Page */
+
+#contact #form {
+    width: 500px;
+    box-shadow: -10px 8px 20px 0px #bdbaba;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 0 0 0;
+}
+
+#contact #form input {
+    width: 100%;
+    border-radius: 5px;
+    height: 20px;
+    background: #f1f1f1;
+    border: 1px;
+}
+
+#contact #form #message {
+    width: 100%;
+    border-radius: 5px;
+    background: #f1f1f1;
+    border: 1px;
+}
+
+#contact #form #submit {
+    width: 30%;
+    border-radius: 5px;
+    height: 30px;
+    background: #869843;
+    border: 1px;
+}
